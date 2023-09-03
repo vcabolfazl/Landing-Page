@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: InterRegular;
+    src: url(/assets/Fonts/Inter-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: SatoshiBold;
+    src: url(/assets/Fonts/Satoshi-Bold.otf);
+  }
+
+  @font-face {
+    font-family: SatoshiMedium;
+    src: url(/assets/Fonts/Satoshi-Medium.otf);
+  }
+
+}
+
+@layer components {
+  body {
+    background: #060B27;
+    color: #F6F6F7;
+    font-family: InterRegular;
+  }
+
+  .title {
+    background: var(--Linear-gradient, linear-gradient(180deg, #F6F6F7 0%, rgba(246, 246, 247, 0.50) 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}

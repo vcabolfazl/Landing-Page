@@ -7,11 +7,23 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        purple: "#7214FF",
+        gray: "#8F9BB7",
       },
+    },
+    container: {
+      center: true,
+      padding: "0.5rem",
+      // screen: {
+      //   xl: "1224px",
+      //   xxl: "1224px"
+      // },
+    },
+    fontFamily: {
+      "InterRegular": "InterRegular",
+      "SatoshiBold": "SatoshiBold",
+      "SatoshiMedium": "SatoshiMedium",
     },
   },
   plugins: [],
