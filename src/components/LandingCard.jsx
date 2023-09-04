@@ -6,7 +6,7 @@ export default function LandingCard({ icon, title, desc }) {
    <svg className="w-14 h-14">
     <use href={`#${icon}`}></use>
    </svg>
-   <h4 className='my-4 font-SatoshiBold text-lg'>{title}</h4>
+   <h4 className='my-4 font-SatoshiBold text-lg titleCard'>{title}</h4>
    <p className='text-gray'>{desc}</p>
   </div>
  )
