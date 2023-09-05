@@ -405,7 +405,7 @@ export default function page() {
               </div>
             </div>
             <div className="relative md:col-span-3 grid justify-center items-center bg-zinc-700/20  rounded-xl shadow-2xl pb-0 p-6 md:p-9 md:pb-0">
-              <svg className='absolute top-0 right-0 z-[-1]'
+              <svg className='absolute top-0 right-0 z-[-1] w-fit'
                 xmlns="http://www.w3.org/2000/svg"
                 width={689}
                 height={183}
@@ -491,45 +491,19 @@ export default function page() {
                 <span className='text-gray'>Tellus et adipiscing sit sit mauris pharetra bibendum. Ligula massa netus nulla ultricies purus.</span>
               </div>
               <img src="/assets/Images/imageWraper.png" className='mx-auto' alt="" />
-              <svg className='hidden xl:inline-block absolute left-0 bottom-0 z-[-2]'
+              <svg className='absolute bottom-0 left-0 inline-block z-[-1] w-full'
                 xmlns="http://www.w3.org/2000/svg"
-                width={689}
+                width={529}
                 height={393}
-                viewBox="0 0 689 393"
+                viewBox="0 0 529 393"
                 fill="none"
               >
-                <mask
-                  id="mask0_0_531"
-                  style={{
-                    maskType: "alpha",
-                  }}
-                  maskUnits="userSpaceOnUse"
-                  x={0}
-                  y={0}
-                  width={689}
-                  height={393}
-                >
-                  <rect
-                    x={0.5}
-                    y={0.5}
-                    width={688}
-                    height={392}
-                    rx={9.5}
-                    fill="#0E1330"
-                    stroke="#282D45"
-                  />
-                </mask>
-                <g mask="url(#mask0_0_531)">
-                  <g filter="url(#filter0_f_0_531)">
-                    <circle cx={109} cy={281} r={70} fill="#2D55FB" />
-                  </g>
-                  <g filter="url(#filter1_f_0_531)">
-                    <circle cx={573} cy={-73} r={75} fill="#7214FF" />
-                  </g>
+                <g filter="url(#filter0_f_0_533)">
+                  <circle cx={109} cy={281} r={70} fill="#2D55FB" />
                 </g>
                 <defs>
                   <filter
-                    id="filter0_f_0_531"
+                    id="filter0_f_0_533"
                     x={-311}
                     y={-139}
                     width={840}
@@ -546,28 +520,7 @@ export default function page() {
                     />
                     <feGaussianBlur
                       stdDeviation={175}
-                      result="effect1_foregroundBlur_0_531"
-                    />
-                  </filter>
-                  <filter
-                    id="filter1_f_0_531"
-                    x={198}
-                    y={-448}
-                    width={750}
-                    height={750}
-                    filterUnits="userSpaceOnUse"
-                    colorInterpolationFilters="sRGB"
-                  >
-                    <feFlood floodOpacity={0} result="BackgroundImageFix" />
-                    <feBlend
-                      mode="normal"
-                      in="SourceGraphic"
-                      in2="BackgroundImageFix"
-                      result="shape"
-                    />
-                    <feGaussianBlur
-                      stdDeviation={150}
-                      result="effect1_foregroundBlur_0_531"
+                      result="effect1_foregroundBlur_0_533"
                     />
                   </filter>
                 </defs>
@@ -575,16 +528,122 @@ export default function page() {
             </div>
           </div>
           <div className="w-full flex flex-wrap items-center justify-center my-16 gap-x-6 gap-y-2">
-          <Button
-            title={"Get a Started"}
-            bg={true}
-          />
-          <Button
-            title={"Browse all feature"}
-          />
+            <Button
+              title={"Get a Started"}
+              bg={true}
+            />
+            <Button
+              title={"Browse all feature"}
+            />
           </div>
         </section>
-      </div>
+
+        <section className='mb-16'>
+          <div className="relative p-6 md:p-12 grid md:grid-cols-2 items-center justify-between gap-10 bg-zinc-700/20 rounded-xl shadow-2xl">
+            <svg className='absolute top-0 left-0 inline-block w-full'
+              xmlns="http://www.w3.org/2000/svg"
+              width={711}
+              height={682}
+              viewBox="0 0 711 682"
+              fill="none"
+            >
+              <g filter="url(#filter0_f_0_543)">
+                <circle cx={112.5} cy={83.5} r={98.5} fill="#7214FF" />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_f_0_543"
+                  x={-486}
+                  y={-515}
+                  width={1197}
+                  height={1197}
+                  filterUnits="userSpaceOnUse"
+                  colorInterpolationFilters="sRGB"
+                >
+                  <feFlood floodOpacity={0} result="BackgroundImageFix" />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="BackgroundImageFix"
+                    result="shape"
+                  />
+                  <feGaussianBlur
+                    stdDeviation={250}
+                    result="effect1_foregroundBlur_0_543"
+                  />
+                </filter>
+              </defs>
+            </svg>
+            <div className="">
+              <h2 className='font-SatoshiBold text-2xl md:text-3xl xl:text-5xl pb-4 title'>Transparent, audited, &open source</h2>
+              <p className='text-gray mb-10'>Torem ipsum dolor sit amet consectetur. Nulla quisque scelerisque eget quis. Eu amet amet eu interdum.</p>
+              <Button
+                title={"rowse all feature"}
+              />
+            </div>
+
+            <div className="grid justify-center md:justify-end">
+              <img src="/assets/Images/Image.png" alt="" />
+            </div>
+
+            <div className="bg-[#060B27] p-4 pb-0 md:p-7 md:pb-0 rounded-xl relative">
+              <h3 className='font-SatoshiBold text-xl md:text-2xl mb-2.5'>Product Mail</h3>
+              <span className='text-gray'>Gonsectetur eque nec nunc facilisis tellus tincidunt. Malesuada maecenas ac bibendum consectetur.</span>
+              <div className="w-full flex justify-center mt-8">
+                <img src="/assets/Images/Imasge.png" alt="" />
+              </div>
+            </div>
+            <div className="bg-[#060B27] p-4 pb-0 md:p-7 md:pb-0 rounded-xl relative">
+              <h3 className='font-SatoshiBold text-xl md:text-2xl mb-2.5'>Product Mail</h3>
+              <span className='text-gray'>Gonsectetur eque nec nunc facilisis tellus tincidunt. Malesuada maecenas ac bibendum consectetur.</span>
+              <div className="w-full flex justify-center mt-8">
+                <img src="/assets/Images/Imagewaper.png" alt="" />
+              </div>
+            </div>
+            <svg className='absolute inline-block bottom-0 right-0 '
+              xmlns="http://www.w3.org/2000/svg"
+              width={725}
+              height={717}
+              viewBox="0 0 725 717"
+              fill="none"
+            >
+              <g filter="url(#filter0_f_0_544)">
+                <circle cx={586} cy={586} r={86} fill="#32CAFD" />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_f_0_544"
+                  x={0}
+                  y={0}
+                  width={1172}
+                  height={1172}
+                  filterUnits="userSpaceOnUse"
+                  colorInterpolationFilters="sRGB"
+                >
+                  <feFlood floodOpacity={0} result="BackgroundImageFix" />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="BackgroundImageFix"
+                    result="shape"
+                  />
+                  <feGaussianBlur
+                    stdDeviation={250}
+                    result="effect1_foregroundBlur_0_544"
+                  />
+                </filter>
+              </defs>
+            </svg>
+          </div>
+        </section>
+
+        <section className='mb-16'>
+          <div className="text-center">
+            <h2 className='font-SatoshiBold text-2xl md:text-3xl xl:text-5xl pb-4 title'>What our clients say</h2>
+            <span className='text-gray'>Rmet facilisi arcu odio urna aenean erat. Pellentesque in vitae lobortis orci tincidunt facilisis. Pulvinar lacus ultricies turpis urna sapien.</span>
+          </div>
+        </section >
+      </div >
 
     </>
   )
