@@ -278,7 +278,7 @@ export default function page() {
             </div>
           </div>
 
-          <div className="container max-h-full absolute left-0 right-0 mx-auto z-[-1] flex justify-between rounded-2xl shadow-2xl">
+          {/* <div className="container max-h-full absolute left-0 right-0 mx-auto z-[-1] flex justify-between rounded-2xl shadow-2xl">
             <svg className='inline-block z-[-1]  rounded-l-2xl'
               width={577}
               height={512}
@@ -348,8 +348,8 @@ export default function page() {
               </defs>
             </svg>
 
-          </div>
-          
+          </div> */}
+
           <div className="mt-36  grid md:grid-cols-2 items-center gap-7 justify-center">
             <div className="grid gap-y-7 items-center px-5 lg:px-14">
               <h3 className='text-2xl md:text-3xl xl:text-5xl font-SatoshiBold'>End-to-end encrypted inbox and messages</h3>
@@ -362,11 +362,227 @@ export default function page() {
               <img src="/assets/Images/ImageWrapper.png" alt="" />
             </div>
           </div>
-
-        </section>
-
-        <section className='my-32'>
-
+          <div className="grid md:grid-cols-5 gap-9 mt-16 ">
+            <div className="relative md:col-span-2 grid justify-center  items-center bg-zinc-700/20  rounded-xl shadow-2xl p-6 md:p-9">
+              <svg className='absolute top-0 right-0 z-[-1]'
+                xmlns="http://www.w3.org/2000/svg"
+                width={395}
+                height={356}
+                viewBox="0 0 395 356"
+                fill="none"
+              >
+                <g filter="url(#filter0_f_0_437)">
+                  <circle cx={309} cy={97} r={59} fill="#41E88D" />
+                </g>
+                <defs>
+                  <filter
+                    id="filter0_f_0_437"
+                    x={0}
+                    y={-212}
+                    width={618}
+                    height={618}
+                    filterUnits="userSpaceOnUse"
+                    colorInterpolationFilters="sRGB"
+                  >
+                    <feFlood floodOpacity={0} result="BackgroundImageFix" />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="BackgroundImageFix"
+                      result="shape"
+                    />
+                    <feGaussianBlur
+                      stdDeviation={125}
+                      result="effect1_foregroundBlur_0_437"
+                    />
+                  </filter>
+                </defs>
+              </svg>
+              <div className="grid">
+                <img src="/assets/Images/Phone.png" className='mx-auto mb-8 z-[-2]' alt="" />
+                <h3 className='font-SatoshiBold text-xl md:text-3xl my-3 px-6'>Mobile applications</h3>
+                <span className='text-gray px-6'>Prem ipsum dolor sit amet consectetur. Viverra sed dignissim risus aliquet condimentum. Vulputate varius feugiat egestas congue </span>
+              </div>
+            </div>
+            <div className="relative md:col-span-3 grid justify-center items-center bg-zinc-700/20  rounded-xl shadow-2xl pb-0 p-6 md:p-9 md:pb-0">
+              <svg className='absolute top-0 right-0 z-[-1]'
+                xmlns="http://www.w3.org/2000/svg"
+                width={689}
+                height={183}
+                viewBox="0 0 689 183"
+                fill="none"
+              >
+                <mask
+                  id="mask0_0_439"
+                  style={{
+                    maskType: "alpha",
+                  }}
+                  maskUnits="userSpaceOnUse"
+                  x={0}
+                  y={0}
+                  width={689}
+                  height={183}
+                >
+                  <rect
+                    x={0.5}
+                    y={0.5}
+                    width={688}
+                    height={182}
+                    rx={9.5}
+                    fill="#0E1330"
+                    stroke="#282D45"
+                  />
+                </mask>
+                <g mask="url(#mask0_0_439)">
+                  <g filter="url(#filter0_f_0_439)">
+                    <circle cx={109} cy={464} r={83} fill="#2D55FB" />
+                  </g>
+                  <g filter="url(#filter1_f_0_439)">
+                    <circle cx={583} cy={110} r={65} fill="#7214FF" />
+                  </g>
+                </g>
+                <defs>
+                  <filter
+                    id="filter0_f_0_439"
+                    x={-324}
+                    y={31}
+                    width={866}
+                    height={866}
+                    filterUnits="userSpaceOnUse"
+                    colorInterpolationFilters="sRGB"
+                  >
+                    <feFlood floodOpacity={0} result="BackgroundImageFix" />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="BackgroundImageFix"
+                      result="shape"
+                    />
+                    <feGaussianBlur
+                      stdDeviation={175}
+                      result="effect1_foregroundBlur_0_439"
+                    />
+                  </filter>
+                  <filter
+                    id="filter1_f_0_439"
+                    x={268}
+                    y={-205}
+                    width={630}
+                    height={630}
+                    filterUnits="userSpaceOnUse"
+                    colorInterpolationFilters="sRGB"
+                  >
+                    <feFlood floodOpacity={0} result="BackgroundImageFix" />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="BackgroundImageFix"
+                      result="shape"
+                    />
+                    <feGaussianBlur
+                      stdDeviation={125}
+                      result="effect1_foregroundBlur_0_439"
+                    />
+                  </filter>
+                </defs>
+              </svg>
+              <div className="mb-9 md:px-9">
+                <h3 className='font-SatoshiBold text-xl md:text-3xl mb-3'>Upload, share, and preview any file</h3>
+                <span className='text-gray'>Tellus et adipiscing sit sit mauris pharetra bibendum. Ligula massa netus nulla ultricies purus.</span>
+              </div>
+              <img src="/assets/Images/imageWraper.png" className='mx-auto' alt="" />
+              <svg className='hidden xl:inline-block absolute left-0 bottom-0 z-[-2]'
+                xmlns="http://www.w3.org/2000/svg"
+                width={689}
+                height={393}
+                viewBox="0 0 689 393"
+                fill="none"
+              >
+                <mask
+                  id="mask0_0_531"
+                  style={{
+                    maskType: "alpha",
+                  }}
+                  maskUnits="userSpaceOnUse"
+                  x={0}
+                  y={0}
+                  width={689}
+                  height={393}
+                >
+                  <rect
+                    x={0.5}
+                    y={0.5}
+                    width={688}
+                    height={392}
+                    rx={9.5}
+                    fill="#0E1330"
+                    stroke="#282D45"
+                  />
+                </mask>
+                <g mask="url(#mask0_0_531)">
+                  <g filter="url(#filter0_f_0_531)">
+                    <circle cx={109} cy={281} r={70} fill="#2D55FB" />
+                  </g>
+                  <g filter="url(#filter1_f_0_531)">
+                    <circle cx={573} cy={-73} r={75} fill="#7214FF" />
+                  </g>
+                </g>
+                <defs>
+                  <filter
+                    id="filter0_f_0_531"
+                    x={-311}
+                    y={-139}
+                    width={840}
+                    height={840}
+                    filterUnits="userSpaceOnUse"
+                    colorInterpolationFilters="sRGB"
+                  >
+                    <feFlood floodOpacity={0} result="BackgroundImageFix" />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="BackgroundImageFix"
+                      result="shape"
+                    />
+                    <feGaussianBlur
+                      stdDeviation={175}
+                      result="effect1_foregroundBlur_0_531"
+                    />
+                  </filter>
+                  <filter
+                    id="filter1_f_0_531"
+                    x={198}
+                    y={-448}
+                    width={750}
+                    height={750}
+                    filterUnits="userSpaceOnUse"
+                    colorInterpolationFilters="sRGB"
+                  >
+                    <feFlood floodOpacity={0} result="BackgroundImageFix" />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="BackgroundImageFix"
+                      result="shape"
+                    />
+                    <feGaussianBlur
+                      stdDeviation={150}
+                      result="effect1_foregroundBlur_0_531"
+                    />
+                  </filter>
+                </defs>
+              </svg>
+            </div>
+          </div>
+          <div className="w-full flex flex-wrap items-center justify-center my-16 gap-x-6 gap-y-2">
+          <Button
+            title={"Get a Started"}
+            bg={true}
+          />
+          <Button
+            title={"Browse all feature"}
+          />
+          </div>
         </section>
       </div>
 
