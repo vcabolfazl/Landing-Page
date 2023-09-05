@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer base {
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+
   @font-face {
     font-family: InterRegular;
     src: url(/assets/Fonts/Inter-Regular.ttf);
@@ -40,4 +44,6 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+
 }

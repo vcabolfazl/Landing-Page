@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Button from '@/components/Button'
 import SVG from "@/components/SVG"
 import LandingCard from '@/components/LandingCard'
+import Slider from '@/components/Slider'
 export default function page() {
   const [showMenu, setShowMenu] = useState(false)
   return (
@@ -642,7 +643,14 @@ export default function page() {
             <h2 className='font-SatoshiBold text-2xl md:text-3xl xl:text-5xl pb-4 title'>What our clients say</h2>
             <span className='text-gray'>Rmet facilisi arcu odio urna aenean erat. Pellentesque in vitae lobortis orci tincidunt facilisis. Pulvinar lacus ultricies turpis urna sapien.</span>
           </div>
+          <div className="relative mt-16">
+            <Slider />
+          </div>
         </section >
+
+        <section className='mb-16'>
+          <img src="/assets/Images/Default Container.png" className='w-full' alt="" />
+        </section>
       </div >
 
     </>
