@@ -84,11 +84,11 @@ export default function page() {
               </defs>
             </svg>
           </div>
-          <div className="w-full mt-10 text-center mb-16" data-aos="fade-up">
-            <h1 className='font-SatoshiBold text-2xl md:text-3xl xl:text-5xl pb-4 title'>A CRM dashboard for engineering teams</h1>
-            <p className='text-gray md:text-lg w-full xl:w-2/3 mx-auto mb-7'>Rorem ipsum dolor sit amet consectetur. Gravida convallis orci ultrices non. Ultricies tempor at ut cursus mi. Aliquam sed amet vitae orci ac penatibus consectetur.</p>
+          <div className="w-full mt-10 text-center mb-16">
+            <h1 className='font-SatoshiBold text-2xl md:text-3xl xl:text-5xl pb-4 title' data-aos="fade-down">A CRM dashboard for engineering teams</h1>
+            <p className='text-gray md:text-lg w-full xl:w-2/3 mx-auto mb-7' data-aos="zoom-in">Rorem ipsum dolor sit amet consectetur. Gravida convallis orci ultrices non. Ultricies tempor at ut cursus mi. Aliquam sed amet vitae orci ac penatibus consectetur.</p>
             <div className="gap-x-6 gap-y-2 my-7 flex justify-center flex-wrap">
-              <Button
+              <Button 
                 title={"Get a Demo"}
                 bg={true}
               />
@@ -96,7 +96,7 @@ export default function page() {
                 title={"View Pricing"}
               />
             </div>
-            <img className='mx-auto' src="/assets/Images/HeroImage.png" alt="" />
+            <img data-aos="zoom-in"  className='mx-auto' src="/assets/Images/HeroImage.png" alt="" />
           </div>
           <div className="w-full left-0 right-0 fixed z-50 bg-[#060B27] top-0 py-5 px-5">
             <nav className={`container grid grid-cols-2 md:grid-cols-12 justify-between items-center top-0`}>
@@ -214,8 +214,8 @@ export default function page() {
 
           <div className="">
             <div className="grid grid-cols-2 md:grid-cols-3 justify-between gap-6">
-              <h2 className='col-span-2 font-SatoshiBold text-2xl md:text-3xl xl:text-5xl pb-4 title pb-2'>Powerful features to help you manage all your leads</h2>
-              <p className='text-gray col-span-2 md:col-span-1'>Apsum dolor sit amet consectetur. Aliquam elementum elementum in ultrices. Dui maecenas ut eros turpis ultrices metus morbi aliquet vel.</p>
+              <h2 className='col-span-2 font-SatoshiBold text-2xl md:text-3xl xl:text-5xl pb-4 title'  data-aos="fade-left">Powerful features to help you manage all your leads</h2>
+              <p className='text-gray col-span-2 md:col-span-1'  data-aos="fade-right">Apsum dolor sit amet consectetur. Aliquam elementum elementum in ultrices. Dui maecenas ut eros turpis ultrices metus morbi aliquet vel.</p>
               <LandingCard
                 icon={"group"}
                 title={"User information"}
@@ -254,8 +254,8 @@ export default function page() {
 
         <section className='mb-16 h-fit'>
           <div className="text-center mb-16">
-            <h2 className='font-SatoshiBold text-2xl md:text-3xl xl:text-5xl pb-4 title'>Essential apps that protect your</h2>
-            <div className="flex  justify-center flex-wrap items-center gap-7">
+            <h2 className='font-SatoshiBold text-2xl md:text-3xl xl:text-5xl pb-4 title' data-aos="zoom-out">Essential apps that protect your</h2>
+            <div className="flex  justify-center flex-wrap items-center gap-7" data-aos="zoom-out">
               <div className="font-SatoshiBold text-base md:text-3xl xl:text-5xl pb-2 title flex justify-center items-center gap-x-2">
                 <svg className="w-11 h-8">
                   <use href='#email'></use>
@@ -357,18 +357,18 @@ export default function page() {
 
           <div className="mt-36  grid md:grid-cols-2 items-center gap-7 justify-center">
             <div className="grid gap-y-7 items-center px-5 lg:px-14">
-              <h3 className='text-2xl md:text-3xl xl:text-5xl font-SatoshiBold'>End-to-end encrypted inbox and messages</h3>
-              <span>Rorem ipsum dolor sit amet consectetur. Proin dignissim tortor mauris viverra sed volutpat mauris. Amet nisi amet commodo adipiscing ut imperdiet nunc.</span>
+              <h3 className='text-2xl md:text-3xl xl:text-5xl font-SatoshiBold' data-aos="flip-right">End-to-end encrypted inbox and messages</h3>
+              <span data-aos="flip-up">Rorem ipsum dolor sit amet consectetur. Proin dignissim tortor mauris viverra sed volutpat mauris. Amet nisi amet commodo adipiscing ut imperdiet nunc.</span>
               <Button
                 title={"Learn More"}
               />
             </div>
             <div className="grid justify-center px-5">
-              <img src="/assets/Images/ImageWrapper.png" alt="" />
+              <img src="/assets/Images/ImageWrapper.png" alt="" data-aos="zoom-out-left" />
             </div>
           </div>
           <div className="grid md:grid-cols-5 gap-9 mt-16 ">
-            <div className="relative md:col-span-2 grid justify-center  items-center bg-zinc-700/20  rounded-xl shadow-2xl p-6 md:p-9">
+            <div className="relative md:col-span-2 grid justify-center  items-center bg-zinc-700/20  rounded-xl shadow-2xl p-6 md:p-9" data-aos="fade-up-right">
               <svg className='absolute top-0 right-0 z-[-1]'
                 xmlns="http://www.w3.org/2000/svg"
                 width={395}
@@ -409,7 +409,7 @@ export default function page() {
                 <span className='text-gray px-6'>Prem ipsum dolor sit amet consectetur. Viverra sed dignissim risus aliquet condimentum. Vulputate varius feugiat egestas congue </span>
               </div>
             </div>
-            <div className="relative md:col-span-3 grid justify-center items-center bg-zinc-700/20  rounded-xl shadow-2xl pb-0 p-6 md:p-9 md:pb-0">
+            <div className="relative md:col-span-3 grid justify-center items-center bg-zinc-700/20  rounded-xl shadow-2xl pb-0 p-6 md:p-9 md:pb-0" data-aos="fade-up-left">
               <svg className='absolute top-0 right-0 z-[-1] w-fit'
                 xmlns="http://www.w3.org/2000/svg"
                 width={689}
@@ -580,25 +580,25 @@ export default function page() {
               </defs>
             </svg>
             <div className="">
-              <h2 className='font-SatoshiBold text-2xl md:text-3xl xl:text-5xl pb-4 title'>Transparent, audited, &open source</h2>
-              <p className='text-gray mb-10'>Torem ipsum dolor sit amet consectetur. Nulla quisque scelerisque eget quis. Eu amet amet eu interdum.</p>
+              <h2 className='font-SatoshiBold text-2xl md:text-3xl xl:text-5xl pb-4 title' data-aos="flip-left">Transparent, audited, &open source</h2>
+              <p className='text-gray mb-10'  data-aos="flip-up">Torem ipsum dolor sit amet consectetur. Nulla quisque scelerisque eget quis. Eu amet amet eu interdum.</p>
               <Button
                 title={"rowse all feature"}
               />
             </div>
 
             <div className="grid justify-center md:justify-end">
-              <img src="/assets/Images/Image.png" alt="" />
+              <img src="/assets/Images/Image.png" alt="" data-aos="fade-up" data-aos-anchor-placement="center-bottom"/>
             </div>
 
-            <div className="bg-[#060B27] p-4 pb-0 md:p-7 md:pb-0 rounded-xl relative">
+            <div className="bg-[#060B27] p-4 pb-0 md:p-7 md:pb-0 rounded-xl relative" data-aos="flip-down">
               <h3 className='font-SatoshiBold text-xl md:text-2xl mb-2.5'>Product Mail</h3>
               <span className='text-gray'>Gonsectetur eque nec nunc facilisis tellus tincidunt. Malesuada maecenas ac bibendum consectetur.</span>
               <div className="w-full flex justify-center mt-8">
                 <img src="/assets/Images/Imasge.png" alt="" />
               </div>
             </div>
-            <div className="bg-[#060B27] p-4 pb-0 md:p-7 md:pb-0 rounded-xl relative">
+            <div className="bg-[#060B27] p-4 pb-0 md:p-7 md:pb-0 rounded-xl relative" data-aos="flip-up">
               <h3 className='font-SatoshiBold text-xl md:text-2xl mb-2.5'>Product Mail</h3>
               <span className='text-gray'>Gonsectetur eque nec nunc facilisis tellus tincidunt. Malesuada maecenas ac bibendum consectetur.</span>
               <div className="w-full flex justify-center mt-8">
@@ -653,7 +653,7 @@ export default function page() {
         </section >
 
         <section className='mb-16'>
-          <img src="/assets/Images/Default Container.png" className='w-full' alt="" />
+          <img src="/assets/Images/Default Container.png" className='w-full' alt="" data-aos="zoom-in-down"/>
         </section>
 
         <section className='mb-36'>
@@ -667,7 +667,7 @@ export default function page() {
             </div>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-14">
-            <div className="p-5 bg-zinc-700/20 shadow-2xl rounded-xl">
+            <div className="p-5 bg-zinc-700/20 shadow-2xl rounded-xl" data-aos="flip-left">
               <img src="/assets/Images/Blogimage.png" className='w-full' alt="" />
               <h4 className='font-SatoshiBold text-xl md:text-2xl mt-5 mb-4'>Product Mail is taking on Gmail by betting on privacy</h4>
               <span className='text-gray'>Ramet consectetur. Est porttitor mattis pharetra sit id viverra. Vivamus mauris augue pharetra cras turpis faucibus elit urna.</span>
@@ -682,7 +682,7 @@ export default function page() {
               </div>
 
             </div>
-            <div className="p-5 bg-zinc-700/20 shadow-2xl rounded-xl">
+            <div className="p-5 bg-zinc-700/20 shadow-2xl rounded-xl" data-aos="flip-up">
               <img src="/assets/Images/BlogImage2.png" className='w-full' alt="" />
               <h4 className='font-SatoshiBold text-xl md:text-2xl mt-5 mb-4'>Wants You To Sign Out Of Google Workspace Forever</h4>
               <span className='text-gray'>Est porttitor mattis pharetra sit id viverra. Vivamus mauris augue pharetra cras turpis faucibus elit urna.</span>
@@ -697,7 +697,7 @@ export default function page() {
               </div>
 
             </div>
-            <div className="p-5 bg-zinc-700/20 shadow-2xl rounded-xl">
+            <div className="p-5 bg-zinc-700/20 shadow-2xl rounded-xl" data-aos="flip-right">
               <img src="/assets/Images/BlogImage3.png" className='w-full' alt="" />
               <h4 className='font-SatoshiBold text-xl md:text-2xl mt-5 mb-4'>The Best Email Encryption Services for 2023</h4>
               <span className='text-gray'>Dorttitor mattis pharetra sit id viverra. Vivamus mauris augue pharetra cras turpis faucibus elit urna.</span>
