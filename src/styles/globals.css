@@ -21,7 +21,9 @@
     font-family: SatoshiMedium;
     src: url(/assets/Fonts/Satoshi-Medium.otf);
   }
-
+  .swiper-pagination-progressbar-fill {
+    background: linear-gradient(45deg, #8eb309, #d8ff4a) !important;
+  }
 }
 
 @layer components {
@@ -45,5 +47,7 @@
     -webkit-text-fill-color: transparent;
   }
 
-
+  .rtl{
+    direction: rtl;
+  }
 }

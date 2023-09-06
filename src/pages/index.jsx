@@ -3,6 +3,8 @@ import Button from '@/components/Button'
 import SVG from "@/components/SVG"
 import LandingCard from '@/components/LandingCard'
 import Slider from '@/components/Slider'
+import Link from 'next/link'
+import { useRouter } from 'next/router'
 export default function page() {
   const [showMenu, setShowMenu] = useState(false)
   return (
@@ -651,6 +653,171 @@ export default function page() {
         <section className='mb-16'>
           <img src="/assets/Images/Default Container.png" className='w-full' alt="" />
         </section>
+
+        <section className='mb-36'>
+          <div className="grid grid-cols-2 md:grid-cols-5 justify-between items-center">
+            <h2 className='md:col-span-4 font-SatoshiBold text-2xl md:text-3xl xl:text-5xl title'>Product in the news</h2>
+            <div className="flex justify-end">
+              <Button
+                title={"Browse all news"}
+                bg={true}
+              />
+            </div>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-14">
+            <div className="p-5 bg-zinc-700/20 shadow-2xl rounded-xl">
+              <img src="/assets/Images/Blogimage.png" className='w-full' alt="" />
+              <h4 className='font-SatoshiBold text-xl md:text-2xl mt-5 mb-4'>Product Mail is taking on Gmail by betting on privacy</h4>
+              <span className='text-gray'>Ramet consectetur. Est porttitor mattis pharetra sit id viverra. Vivamus mauris augue pharetra cras turpis faucibus elit urna.</span>
+              <hr className='text-gray  my-5' />
+              <div className="flex justify-between">
+                <p className='text-gray'>February 8, 2023</p>
+                <p className='flex items-center gap-1'>Read more
+                  <svg className='w-4 h-4'>
+                    <use href='#arrow-right'></use>
+                  </svg>
+                </p>
+              </div>
+
+            </div>
+            <div className="p-5 bg-zinc-700/20 shadow-2xl rounded-xl">
+              <img src="/assets/Images/BlogImage2.png" className='w-full' alt="" />
+              <h4 className='font-SatoshiBold text-xl md:text-2xl mt-5 mb-4'>Wants You To Sign Out Of Google Workspace Forever</h4>
+              <span className='text-gray'>Est porttitor mattis pharetra sit id viverra. Vivamus mauris augue pharetra cras turpis faucibus elit urna.</span>
+              <hr className='text-gray  my-5' />
+              <div className="flex justify-between">
+                <p className='text-gray'>February 8, 2023</p>
+                <p className='flex items-center gap-1'>Read more
+                  <svg className='w-4 h-4'>
+                    <use href='#arrow-right'></use>
+                  </svg>
+                </p>
+              </div>
+
+            </div>
+            <div className="p-5 bg-zinc-700/20 shadow-2xl rounded-xl">
+              <img src="/assets/Images/BlogImage3.png" className='w-full' alt="" />
+              <h4 className='font-SatoshiBold text-xl md:text-2xl mt-5 mb-4'>The Best Email Encryption Services for 2023</h4>
+              <span className='text-gray'>Dorttitor mattis pharetra sit id viverra. Vivamus mauris augue pharetra cras turpis faucibus elit urna.</span>
+              <hr className='text-gray  my-5' />
+              <div className="flex justify-between">
+                <p className='text-gray'>February 8, 2023</p>
+                <p className='flex items-center gap-1'>Read more
+                  <svg className='w-4 h-4'>
+                    <use href='#arrow-right'></use>
+                  </svg>
+                </p>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <footer className='relative'>
+          <svg className='hidden xl:inline-block absolute w-fit z-[-1]'
+            width={1242}
+            height={586}
+            viewBox="0 0 1242 586"
+            fill="none"
+          >
+            <g filter="url(#filter0_f_0_912)">
+              <circle cx={621} cy={327} r={121} fill="#7214FF" />
+            </g>
+            <defs>
+              <filter
+                id="filter0_f_0_912"
+                x={0}
+                y={-294}
+                width={1242}
+                height={1242}
+                filterUnits="userSpaceOnUse"
+                colorInterpolationFilters="sRGB"
+              >
+                <feFlood floodOpacity={0} result="BackgroundImageFix" />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="BackgroundImageFix"
+                  result="shape"
+                />
+                <feGaussianBlur
+                  stdDeviation={250}
+                  result="effect1_foregroundBlur_0_912"
+                />
+              </filter>
+            </defs>
+          </svg>
+          <div className="grid grid-cols-2 md:grid-cols-5 justify-between py-10 gap-7">
+            <div className="col-span-2">
+              <svg className='h-10 mb-9'>
+                <use href='#Logo'></use>
+              </svg>
+              <form className='px-7 py-10  rounded-xl bg-zinc-700/20'>
+                <p className='font-SatoshiBold text-2xl mb-5 '>Subscribe to our newsletter</p>
+                <input className='w-full px-7 py-4 bg-inherit rounded-full border-1' type="email" placeholder='Enter your email' />
+                <input className='w-full px-7 py-4 bg-purple rounded-full mt-4 font-SatoshiMedium' type="submit" value={"Subscribe"} />
+              </form>
+            </div>
+            <div className="grid justify-end">
+              <p className='font-SatoshiBold text-lg'>Pages</p>
+              <ul className='space-y-6 text-gray mt-9'>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Blog</li>
+                <li>Blog post</li>
+                <li>Pricing</li>
+                <li>Pricing single</li>
+              </ul>
+            </div>
+            <div className="grid justify-end h-fit">
+              <p className='font-SatoshiBold text-lg'>Utility Pages</p>
+              <ul className='space-y-6 text-gray mt-9'>
+                <li>Style guide</li>
+                <li>Password protected</li>
+                <li>404 Not found</li>
+                <li>Licenses</li>
+                <li>Changelog</li>
+              </ul>
+            </div>
+            <div className="grid justify-end">
+              <ul className='space-y-6 text-gray mt-16'>
+                <li>Features</li>
+                <li>Careers</li>
+                <li>Careers single</li>
+                <li>Request a demo</li>
+                <li>Login</li>
+                <li>Sign Up</li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+          <div className="flex flex-wrap gap-5 justify-between items-center my-9">
+            <p className='font-SatoshiMedium text-gray' >Copyright © Product | Developed by <Link className='text-white font-SatoshiBold text-lg ' href={"https://github.com/vcabolfazl"}>Abolfazl Sharifi</Link> - Designed  by <Link className='text-white font-SatoshiBold text-lg' href={"https://webflow.com"}>Webflow</Link></p>
+            <div className="flex gap-x-4 left-0 right-0 mx-auto md:mx-0">
+              <Link href={"/"} className='flex items-center justify-center p-1 rounded-xl border'>
+                <svg className="w-8 h-8">
+                  <use href='#instagrom'></use>
+                </svg>
+              </Link>
+              <Link href={"/"} className='flex items-center justify-center p-1 rounded-xl border'>
+                <svg className="w-8 h-8">
+                  <use href='#twiter'></use>
+                </svg>
+              </Link>
+              <Link href={"/"} className='flex items-center justify-center p-1 rounded-xl border'>
+                <svg className="w-8 h-8">
+                  <use href='#linkdin'></use>
+                </svg>
+              </Link>
+              <Link href={"/"} className='flex items-center justify-center p-1 rounded-xl border'>
+                <svg className="w-8 h-8">
+                  <use href='#facebook'></use>
+                </svg>
+              </Link>
+            </div>
+          </div>
+        </footer>
       </div >
 
     </>
