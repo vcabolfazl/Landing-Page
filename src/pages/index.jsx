@@ -88,7 +88,7 @@ export default function page() {
             <h1 className='font-SatoshiBold text-2xl md:text-3xl xl:text-5xl pb-4 title' data-aos="fade-down">A CRM dashboard for engineering teams</h1>
             <p className='text-gray md:text-lg w-full xl:w-2/3 mx-auto mb-7' data-aos="zoom-in">Rorem ipsum dolor sit amet consectetur. Gravida convallis orci ultrices non. Ultricies tempor at ut cursus mi. Aliquam sed amet vitae orci ac penatibus consectetur.</p>
             <div className="gap-x-6 gap-y-2 my-7 flex justify-center flex-wrap">
-              <Button 
+              <Button
                 title={"Get a Demo"}
                 bg={true}
               />
@@ -96,7 +96,7 @@ export default function page() {
                 title={"View Pricing"}
               />
             </div>
-            <img data-aos="zoom-in"  className='mx-auto' src="/assets/Images/HeroImage.png" alt="" />
+            <img data-aos="zoom-in" className='mx-auto' src="/assets/Images/HeroImage.png" alt="" />
           </div>
           <div className="w-full left-0 right-0 fixed z-50 bg-[#060B27] top-0 py-5 px-5">
             <nav className={`container grid grid-cols-2 md:grid-cols-12 justify-between items-center top-0`}>
@@ -120,7 +120,7 @@ export default function page() {
                 </ul>
               </div>
               <div className="center col-span-8  hidden text-center w-full md:flex items-center justify-center">
-                <ul className='flex gap-x-8 text-gray'>
+                <ul className='flex gap-x-8 text-gray transition'>
                   <li className='text-white'>Home</li>
                   <li>About</li>
                   <li>Features</li>
@@ -214,8 +214,8 @@ export default function page() {
 
           <div className="">
             <div className="grid grid-cols-2 md:grid-cols-3 justify-between gap-6">
-              <h2 className='col-span-2 font-SatoshiBold text-2xl md:text-3xl xl:text-5xl pb-4 title'  data-aos="fade-left">Powerful features to help you manage all your leads</h2>
-              <p className='text-gray col-span-2 md:col-span-1'  data-aos="fade-right">Apsum dolor sit amet consectetur. Aliquam elementum elementum in ultrices. Dui maecenas ut eros turpis ultrices metus morbi aliquet vel.</p>
+              <h2 className='col-span-2 font-SatoshiBold text-2xl md:text-3xl xl:text-5xl pb-4 title' data-aos="fade-left">Powerful features to help you manage all your leads</h2>
+              <p className='text-gray col-span-2 md:col-span-1' data-aos="fade-right">Apsum dolor sit amet consectetur. Aliquam elementum elementum in ultrices. Dui maecenas ut eros turpis ultrices metus morbi aliquet vel.</p>
               <LandingCard
                 icon={"group"}
                 title={"User information"}
@@ -581,14 +581,14 @@ export default function page() {
             </svg>
             <div className="">
               <h2 className='font-SatoshiBold text-2xl md:text-3xl xl:text-5xl pb-4 title' data-aos="flip-left">Transparent, audited, &open source</h2>
-              <p className='text-gray mb-10'  data-aos="flip-up">Torem ipsum dolor sit amet consectetur. Nulla quisque scelerisque eget quis. Eu amet amet eu interdum.</p>
+              <p className='text-gray mb-10' data-aos="flip-up">Torem ipsum dolor sit amet consectetur. Nulla quisque scelerisque eget quis. Eu amet amet eu interdum.</p>
               <Button
                 title={"rowse all feature"}
               />
             </div>
 
             <div className="grid justify-center md:justify-end">
-              <img src="/assets/Images/Image.png" alt="" data-aos="fade-up" data-aos-anchor-placement="center-bottom"/>
+              <img src="/assets/Images/Image.png" alt="" data-aos="fade-up" data-aos-anchor-placement="center-bottom" />
             </div>
 
             <div className="bg-[#060B27] p-4 pb-0 md:p-7 md:pb-0 rounded-xl relative" data-aos="flip-down">
@@ -653,7 +653,7 @@ export default function page() {
         </section >
 
         <section className='mb-16'>
-          <img src="/assets/Images/Default Container.png" className='w-full' alt="" data-aos="zoom-in-down"/>
+          <img src="/assets/Images/Default Container.png" className='w-full' alt="" data-aos="zoom-in-down" />
         </section>
 
         <section className='mb-36'>
@@ -795,7 +795,7 @@ export default function page() {
           </div>
           <hr />
           <div className="flex flex-wrap gap-5 justify-between items-center my-9">
-            <p className='font-SatoshiMedium text-gray' >Copyright © Product | Developed by <Link className='text-white font-SatoshiBold text-lg ' href={"https://github.com/vcabolfazl"}>Abolfazl Sharifi</Link> - Designed  by <Link className='text-white font-SatoshiBold text-lg' href={"https://webflow.com"}>Webflow</Link></p>
+            <p className='font-SatoshiMedium text-gray' >Copyright © Product | Developed by <Link target='_blank' className='text-white font-SatoshiBold text-lg ' href={"https://github.com/vcabolfazl"}>Abolfazl Sharifi</Link> - Designed  by <Link className='text-white font-SatoshiBold text-lg' href={"https://webflow.com"} target='_blank'>Webflow</Link></p>
             <div className="flex gap-x-4 left-0 right-0 mx-auto md:mx-0">
               <Link href={"/"} className='flex items-center justify-center p-1 rounded-xl border'>
                 <svg className="w-8 h-8">

@@ -5,9 +5,9 @@ import { useEffect } from 'react';
 export default function App({ Component, pageProps }) {
   useEffect(() => {
     Aos.init({
-      duration: 1000,
+      duration: 700,
       easing: 'ease-in-out',
-      once: false,
+      once: true,
     });
   }, []);
   return <Component {...pageProps} />
