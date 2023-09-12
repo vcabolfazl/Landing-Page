@@ -1,4 +1,4 @@
-## Landing page for admin panel
+## Landing page (Next JS)
 This project only includes the main page
 ### Technologies used :
 - Next JS
